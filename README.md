@@ -32,8 +32,8 @@ draw_roc(<TPR>,<FPR>, <name of comapny>)
 ## EXECUITNG CODE
 
 Configruation:
-* p1y = ndis(<standered deviation>, <mean>)
-* p2y = ndis(<standered deviation>, <mean>)
+* p1y = ndis(standered deviation, mean)
+* p2y = ndis(standered deviation, mean)
 ```
 Run as you would normally run a python 3 file.
 ```
