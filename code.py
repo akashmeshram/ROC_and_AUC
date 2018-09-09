@@ -40,7 +40,7 @@ def auc(y1, y2, name):
         tpr[i] = a1/b 
         fpr[i] = a2/c
     draw_roc(tpr, fpr, name)
-    area = trapz(tpr, dx=len(fpr)/len(x))
+    area = trapz(tpr, dx=1/len(x))
     print('AUC  { ' + name + "} : " + str(area))
     return area
 
